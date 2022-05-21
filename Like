@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head> 
+<head>
     <meta charset="UTF-8">
-    <title>Like do Insta ^^</title>
+    <title>Likezada di Cria dos Mugiwaras</title>
     <style>
+        main {
+            display: flex;
+            cursor: pointer;
+        }
+
         div:first-child {
             width: 10vh;
             height: 10vh;
@@ -41,16 +46,21 @@
         }
     </style>
 </head>
+
 <body>
+    <main>
+        <div> </div>
+
     </main>
     <script>
         const domMain = document.querySelector("main")
+        // const domDivNum = document.querySelector("main div:last-child")
         const domDivNum = domMain.querySelector("div:last-child")
+        let counter = 0
         domMain.addEventListener("click", () => {
             counter++
             domDivNum.innerHTML = counter
         })
     </script>
 </body>
-
 </html>

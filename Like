@@ -11,15 +11,14 @@
             user-select: none;
             border: 5px solid red;
             border-radius: 20px;
-            box-shadow: 5px 5px 5px red;
-            display: contents;
+            box-shadow: 5px 5px 5px darkred;
+            display: auto;
             cursor: pointer;
             font-size: 5vh;
             position: relative;
+            width: 125px;
             left: 500px;
-
             background-color: grey;
-            
         }
 
     
@@ -51,3 +50,4 @@
 
 
 </html>
+

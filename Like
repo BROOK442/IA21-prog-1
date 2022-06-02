@@ -20,7 +20,7 @@
             cursor: pointer;
             font-size: 5vh;
             position: relative;
-            width: 150px;
+            width: 120px;
             left: 300px;
             background-color: grey;
             height: 150px;
@@ -33,12 +33,20 @@
         input[type="checkbox"]:checked+label main {
             background-color: red;
         }
+
+        body {
+            background-color: #E8F7FD
+        }
+
     </style>
 
     <head>
 
-    <body background="https://www.nerdsite.com.br/wp-content/uploads/2022/05/one-piece-mugiwara.jpg">
-
+    <body>
+        <div class="image">
+            <img src="http://pm1.narvii.com/6866/f280aa1b842cc712948559c5354a764dfed6d08dr1-736-1035v2_00.jpg">
+        </div>
+        </div>
         <div class="img">
             <img src="https://logos-marcas.com/wp-content/uploads/2021/09/One-Piece-Logo.png" width="150px"
                 height="100px">
@@ -48,8 +56,7 @@
         <label for="zzz">
             <main>
                 <img src="https://moldura-pop.s3.sa-east-1.amazonaws.com/imagens-proprietarias/99939649-Px4f-bIO072f2KmahLl-hl1NlzYrhwOt-cropped-3x4-browser.png"
-                    width="80px" height="100px">
-                <div>0</div>
+                    width="110px" height="150px">
             </main>
         </label>
 
